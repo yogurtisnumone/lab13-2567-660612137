@@ -1,7 +1,7 @@
 "use client";
 
-import MovieRow  from "@/components/MovieRow";
-import { movieDB } from "@/lib/movieDB";
+import MovieRow  from "@components/MovieRow";
+import { movieDB } from "@lib/movieDB";
 import { searchInputParams } from "@lib/types";
 
 export default function SearchResultPage({ params }: searchInputParams) {
