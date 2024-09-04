@@ -36,7 +36,7 @@ export default function RootLayout({
           <Footer
             year={2024}
             fullName="Kachapat Punthong"
-            studentId="660612137"
+            id="660612137"
           />
         </div>
       </body>
