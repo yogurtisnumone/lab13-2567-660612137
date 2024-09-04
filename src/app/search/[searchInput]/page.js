@@ -2,7 +2,7 @@
 
 import MovieRow  from "@/components/MovieRow";
 import { movieDB } from "@/libs/movieDB";
-import { searchInputParams } from "@lib/types";
+import { searchInputParams } from "@libs/types";
 
 export default function SearchResultPage({params}: searchInputParams) {
   //tip1 : before filtering movie, replace all "%20" with " " (space) in the input
